@@ -100,5 +100,6 @@ spool off
 💬 Author Notes
 This project was developed as part of a database systems course to demonstrate a full-cycle implementation—from data modeling to querying. 
 It emphasizes normalization, constraint enforcement, and functional query writing. 
-The goal was to simulate a realistic library system that could be scaled further or used as a backend for a full-stack application in future coursework or personal projects.
+The goal was to simulate a realistic library system that could be scaled further
+or used as a backend for a full-stack application in future coursework or personal projects.
 
