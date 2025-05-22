@@ -81,7 +81,7 @@ Enter the path to BookCopies.sql
 Use the numbered menu to interact with the system
 
 
-🖱️ GUI Mode
+## 🖱️ GUI Mode
 javac MainGUI.java
 java MainGUI
 
@@ -91,7 +91,7 @@ File chooser to select the SQL script
 
 GUI will launch with buttons and input fields
 
-💾 Technologies Used
+## 💾 Technologies Used
 Java 21
 
 JDBC (Oracle Thin Driver)
@@ -102,7 +102,7 @@ Java Swing (GUI)
 
 Oracle Database 18c
 
-🏁 Final Notes
+## 🏁 Final Notes
 This project demonstrates hands-on experience in:
 
 Database connectivity and SQL execution via JDBC
