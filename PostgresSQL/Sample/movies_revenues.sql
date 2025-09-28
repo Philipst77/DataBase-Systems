@@ -1,6 +1,9 @@
 -- ---------------------------------------------------------
 --  Records of 'movies' database > table : movies_revenues
 -- ---------------------------------------------------------
+
+
+
 INSERT INTO movies_revenues (revenue_id,movie_id,revenues_domestic,revenues_international) VALUES
 ('1','45','22.2','1.3'),
 ('2','13','199.4','201.2'),
@@ -55,3 +58,6 @@ INSERT INTO movies_revenues (revenue_id,movie_id,revenues_domestic,revenues_inte
 ('50','22','124.9','484.1'),
 ('52','15','59.3','115.5'),
 ('53','47','54.5','104.7');
+SELECT *
+FROM movies_revenues;
+

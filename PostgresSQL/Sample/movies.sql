@@ -1,7 +1,7 @@
 -- ---------------------------------------------------
 --  Records of 'movies' database > table : movies
 -- ---------------------------------------------------
-INSERT INTO movies (movie_name,movie_length,movie_lang,release_date,age_certificate,director_id) VALUES
+INSERT INTO movies (movie_name,movie_length,movie_language,release_date,age_certificate,director_id) VALUES
 ('A Clockwork Orange','112','English','1972-02-02','18','13'),
 ('Apocalypse Now','168','English','1979-08-15','15','9'),
 ('Battle Royale ','111','Japanese','2001-01-04','18','10'),
@@ -55,3 +55,5 @@ INSERT INTO movies (movie_name,movie_length,movie_lang,release_date,age_certific
 ('V for Vendetta','140','English','2006-03-17','12','19'),
 ('Watchmen','138','English','2009-03-06','12','29'),
 ('Way of the Dragon ','99','Chinese','1972-06-01','12','16');
+SELECT *
+FROM movies

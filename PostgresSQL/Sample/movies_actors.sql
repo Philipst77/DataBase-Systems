@@ -72,3 +72,5 @@ INSERT INTO movies_actors (movie_id,actor_id) VALUES
 ('51','52'),
 ('52','35'),
 ('53','52');
+SELECT *
+FROM movies_actors;

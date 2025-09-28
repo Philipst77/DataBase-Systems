@@ -149,3 +149,5 @@ INSERT INTO actors (first_name,last_name,gender,date_of_birth) VALUES
 ('Sean','Young','F','1959-11-20'),
 ('Billy','Zane','M','1966-02-24'),
 ('Ziyi','Zhang','F','1979-02-09');
+SELECT * 
+FROM actors
