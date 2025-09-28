@@ -73,4 +73,3 @@ BEGIN
       CREATE TYPE mood AS ENUM ('happy', 'sad', 'neutral');
    END IF;
 END$$;
-

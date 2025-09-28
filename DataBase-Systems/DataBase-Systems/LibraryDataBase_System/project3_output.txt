@@ -1,0 +1,313 @@
+SQL> @project1-3.sql
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+      ISBN   COPY_NUM                                                           
+---------- ----------                                                           
+      1001          1                                                           
+      1001          2                                                           
+      1002          1                                                           
+      1005          1                                                           
+      1007          1                                                           
+
+
+FIRST_NAME                                                                      
+--------------------------------------------------------------------------------
+John                                                                            
+
+
+      ISBN                                                                      
+----------                                                                      
+TITLE                                                                           
+--------------------------------------------------------------------------------
+      1004                                                                      
+The Adventures of Tom Sawyer                                                    
+                                                                                
+      1006                                                                      
+SQL for Beginners                                                               
+                                                                                
+      1003                                                                      
+Intro to SQL                                                                    
+                                                                                
+
+
+ AUTHOR_ID                                                                      
+----------                                                                      
+         1                                                                      
+         2                                                                      
+
+
+COUNT(BC.COPY_NUM)                                                              
+------------------                                                              
+                 4                                                              
+
+
+ PATRON_ID                                                                      
+----------                                                                      
+         1                                                                      
+         1                                                                      
+         2                                                                      
+         3                                                                      
+         4                                                                      
+         1                                                                      
+         2                                                                      
+         3                                                                      
+         4                                                                      
+         5                                                                      
+         3                                                                      
+
+11 rows selected.
+
+
+      ISBN                                                                      
+----------                                                                      
+TITLE                                                                           
+--------------------------------------------------------------------------------
+      1001                                                                      
+Advanced Databases                                                              
+                                                                                
+
+
+ PATRON_ID                                                                      
+----------                                                                      
+         3                                                                      
+
+SQL> SPOOL OFF
